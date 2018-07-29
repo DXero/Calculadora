@@ -16,5 +16,10 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+
+        private void btnResultado_Click(object sender, EventArgs e)
+        {
+            lblResultado.Text = (double.Parse(txtN1.Text) + double.Parse(txtN2.Text)).ToString();
+        }
     }
 }
