@@ -21,5 +21,20 @@ namespace Calculadora
         {
             lblResultado.Text = "Resultado: "+(double.Parse(txtN1.Text) + double.Parse(txtN2.Text));
         }
+
+        private void btnRestar_Click(object sender, EventArgs e)
+        {
+            lblResultado.Text = "Resultado: " + (double.Parse(txtN1.Text) - double.Parse(txtN2.Text));
+        }
+
+        private void btnMultiplicar_Click(object sender, EventArgs e)
+        {
+            lblResultado.Text = "Resultado: " + (double.Parse(txtN1.Text) * double.Parse(txtN2.Text));
+        }
+
+        private void btnDividir_Click(object sender, EventArgs e)
+        {
+            lblResultado.Text = "Resultado: " + (double.Parse(txtN1.Text) / double.Parse(txtN2.Text));
+        }
     }
 }
