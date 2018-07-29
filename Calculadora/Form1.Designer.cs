@@ -36,7 +36,6 @@
             this.lblResultado = new System.Windows.Forms.Label();
             this.btnRestar = new System.Windows.Forms.Button();
             this.btnMultiplicar = new System.Windows.Forms.Button();
-            this.btnDividir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -110,22 +109,11 @@
             this.btnMultiplicar.UseVisualStyleBackColor = true;
             this.btnMultiplicar.Click += new System.EventHandler(this.btnMultiplicar_Click);
             // 
-            // btnDividir
-            // 
-            this.btnDividir.Location = new System.Drawing.Point(354, 121);
-            this.btnDividir.Name = "btnDividir";
-            this.btnDividir.Size = new System.Drawing.Size(75, 23);
-            this.btnDividir.TabIndex = 8;
-            this.btnDividir.Text = "Dividir";
-            this.btnDividir.UseVisualStyleBackColor = true;
-            this.btnDividir.Click += new System.EventHandler(this.btnDividir_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnDividir);
             this.Controls.Add(this.btnMultiplicar);
             this.Controls.Add(this.btnRestar);
             this.Controls.Add(this.lblResultado);
@@ -151,7 +139,6 @@
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Button btnRestar;
         private System.Windows.Forms.Button btnMultiplicar;
-        private System.Windows.Forms.Button btnDividir;
     }
 }
 
