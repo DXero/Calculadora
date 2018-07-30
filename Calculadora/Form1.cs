@@ -30,7 +30,7 @@ namespace Calculadora
             }
             else if (cbOperacion.SelectedIndex == 2)
             {
-                lblResultado.Text = "Resultado: " + (double.Parse(txtN1.Text) * double.Parse(txtN2.Text));
+                lblResultado.Text = "Resultado (*): " + (double.Parse(txtN1.Text) * double.Parse(txtN2.Text));
             }
             else if (cbOperacion.SelectedIndex == 3)
             {
