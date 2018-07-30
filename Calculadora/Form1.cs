@@ -34,7 +34,7 @@ namespace Calculadora
             }
             else if (cbOperacion.SelectedIndex == 3)
             {
-                lblResultado.Text = "Resultado: div " + (double.Parse(txtN1.Text) / double.Parse(txtN2.Text));
+                lblResultado.Text = "Resultado: divisivion " + (double.Parse(txtN1.Text) / double.Parse(txtN2.Text));
             }
         }
     }
